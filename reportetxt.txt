@@ -1,0 +1,77 @@
+<p>&nbsp;</p>
+<h1>Reporte Par&aacute;metros Bobinas</h1>
+<h3>Datos de entrada</h3>
+<table style="height: 277px; border-color: black; background-color: white; float: left; width: 417px;" border="Yes">
+<tbody>
+<tr>
+<td style="width: 241px;">Paso polar [&deg;]</td>
+<td style="width: 164px;">{{ datos1 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Radio estator [mm]</td>
+<td style="width: 164px;">{{ datos2 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Altura bobina [mm]</td>
+<td style="width: 164px;">{{ datos3 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">&Aacute;ngulo nudillo [&deg;]</td>
+<td style="width: 164px;">{{ datos4 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Ranuras estator [-]</td>
+<td style="width: 164px;">{{ datos5 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Distancia Piernas bob. en nudillo [mm]</td>
+<td style="width: 164px;">{{ datos6 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Profundidad bajo ranura [mm]</td>
+<td style="width: 164px;">{{ datos7 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Profundidad bajo cu&ntilde;a [mm]</td>
+<td style="width: 164px;">{{ datos8 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Ancho bobina [mm]</td>
+<td style="width: 164px;">{{ datos9 }}</td>
+</tr>
+<tr>
+<td style="width: 241px;">Anchocu&ntilde;a [mm]</td>
+<td style="width: 164px;">{{ datos10 }}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;<img src="{{imagenestator}}" alt="Imagen Estator" width="265" height="248" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Datos de salida</h3>
+<table style="height: 180px; border-color: black; background-color: white; float: left; width: 422px;" border="Yes">
+<tbody>
+<tr>
+<td style="width: 234px;">Phi1 [&deg;]</td>
+<td style="width: 174px;">{{ d1 }}</td>
+</tr>
+<tr>
+<td style="width: 234px;">Phi [&deg;]</td>
+<td style="width: 174px;">{{ d2 }}</td>
+</tr>
+<tr>
+<td style="width: 234px;">X1 [mm]</td>
+<td style="width: 174px;">{{ d3 }}</td>
+</tr>
+<tr>
+<td style="width: 234px;">X1 [mm]</td>
+<td style="width: 174px;">{{ d4 }}</td>
+</tr>
+<tr>
+<td style="width: 234px;">Dmax [mm]</td>
+<td style="width: 174px;">{{ d5 }}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;<img src="{{imagencuna}}" alt="Imagen Cu&ntilde;a" width="265" height="248" /></p>
+<p>&nbsp;</p>
